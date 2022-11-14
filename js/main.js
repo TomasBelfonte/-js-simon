@@ -38,6 +38,7 @@ numberContainerEl.innerHTML = randomList;
 setTimeout(timer, 30000);
 
 function timer () {
+    numberContainerEl.innerHTML = "";
     prompt("inserisci il primo numero della serie");
 }
 
